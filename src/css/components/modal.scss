@@ -1,0 +1,18 @@
+.modal{
+    display: none;
+
+    &.fancybox-content {
+        padding: 0 !important;
+    }
+}
+.modal__container{
+    background: white;
+    padding: rem(35px) rem(60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__content{
+    margin-bottom: rem(15px);
+}
